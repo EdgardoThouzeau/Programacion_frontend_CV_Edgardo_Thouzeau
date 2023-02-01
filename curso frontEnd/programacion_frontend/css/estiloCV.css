@@ -1,0 +1,61 @@
+html {
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 20px;
+}
+/* centro mi foto con ing-contenedor */
+.img-contenedor {
+     text-align: center;
+}
+h1 {
+   color: hwb(328 61% 4% / 0.943);
+   text-align: center;
+   background-color:rgb(116, 17, 17);
+}
+/* cuadraditos a cada item de mi lista */
+.lista{
+    list-style-type:square;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eea3a9;
+  } 
+  
+li a {
+    border: 1px solid #555;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  /* le doy movimiento resaltado a mi enlace y colores que se vean bien segun mi gusto */
+li a:hover {
+    background-color: #c50909;
+  }
+li a:hover:not(.activa){
+    text-align: center;
+    border-bottom: 1px solid #555;
+    background-color: rgb(245, 37, 123);
+    color: rgb(11, 10, 10);
+  } 
+
+li a.activa {
+    color: rgba(15, 222, 22, 0.272);
+    background-color: rgba(255, 99, 71, 0.5);
+  }
+  
+.boton-subir {
+   position:fixed;
+   bottom:40px;
+   color:rgb(15, 14, 14);
+   right:40px;
+   padding:25px 30px;
+   background:red;
+   border:1px solid white;
+   border-radius: 100%;
+   cursor:pointer; 
+}
